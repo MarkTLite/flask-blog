@@ -8,8 +8,13 @@ A blog application done to apply core concepts as learned from the official flas
 - Tests
 - Deployment or packaging and installing the application on other computers.<br/>
 
+## Install the Project
+### Use pip to install the project in the virtual environment.
+    pip install -e .
+
 ## Running the app locally
 ### Initialise the db
     flask --app flaskr init-db
 ### then run
     flask --app flaskr run
+
