@@ -29,3 +29,7 @@ A blog application done to apply core concepts as learned from the official flas
 ### then run
     flask --app flaskr run
 
+## Tests
+### Install pytest and coverage then:
+    coverage run -m pytest && coverage report
+
