@@ -8,6 +8,17 @@ A blog application done to apply core concepts as learned from the official flas
 - Tests
 - Deployment or packaging and installing the application on other computers.<br/>
 
+<table border="0">
+ <tr>
+    <td><b style="font-size:20px">Index</b></td>
+    <td><b style="font-size:20px">Create post</b></td>
+ </tr>
+ <tr>
+    <td><img src="flaskr/img/index.jpg"/></td>
+    <td><img src="flaskr/img/crete.jpg"/></td>
+ </tr>
+</table>
+
 ## Install the Project
 ### Use pip to install the project in the virtual environment.
     pip install -e .
