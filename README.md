@@ -1,10 +1,10 @@
 # Flaskr Blog
 A blog application done to apply core concepts as learned from the official flask documentation. It involved:
 
-- Blog (Users are able to register, log in, create posts, and edit or delete their own posts.)
+- REST API (Users are able to register, log in, create posts, and edit or delete their own posts.)
 - Authentication, registering blueprints, sessions and cookies, protected routes.
-- Template views
 - SQLite database for users and posts
+- Template views
 - Tests
 - Deployment or packaging and installing the application on other computers.<br/>
 
