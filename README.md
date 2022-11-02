@@ -23,10 +23,10 @@ A blog application done to apply core concepts as learned from the official flas
  </tr>
 </table>
 
-## Link
+## Link:
 You can register and checkout the blog -> [here](https://flaskr-python-app.herokuapp.com/)
 
-## Install the Project
+## Installing the Project locally
 ### Use pip to install the project in the virtual environment.
     pip install -e .
 
@@ -35,6 +35,13 @@ You can register and checkout the blog -> [here](https://flaskr-python-app.herok
     flask --app flaskr init-db
 ### then run
     flask --app flaskr run
+    
+## Deployment
+The blog is deployed using heroku pipelines. 
+### First deploy to staging for testing 
+    heroku push staging main
+### then when its approved, promote to production.
+    heroku pipelines:promote --remote prod
 
 ## Tests
 ### Install pytest and coverage then:
