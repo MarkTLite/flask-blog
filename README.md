@@ -1,4 +1,7 @@
 # Flaskr Blog
+[![codecov](https://codecov.io/gh/MarkTLite/flask-blog/branch/main/graph/badge.svg?token=D1GG1EUSJL)](https://codecov.io/gh/MarkTLite/flask-blog)
+![Test status](https://github.com/MarkTLite/flask-blog/actions/workflows/testcov.yml/badge.svg)
+![Build Status](https://github.com/MarkTLite/landing-page-react/actions/workflows/heroku_deployer.yaml/badge.svg)
 A blog application done to apply core concepts as learned from the official flask documentation. It involved:
 
 - REST API (Users are able to register, log in, create posts, and edit or delete their own posts.)
@@ -18,6 +21,9 @@ A blog application done to apply core concepts as learned from the official flas
     <td><img src="flaskr/img/crete.jpg"/></td>
  </tr>
 </table>
+
+## Link
+You can register and checkout the blog -> [here](https://flaskr-python-app.herokuapp.com/)
 
 ## Install the Project
 ### Use pip to install the project in the virtual environment.
