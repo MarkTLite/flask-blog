@@ -2,6 +2,7 @@
 [![codecov](https://codecov.io/gh/MarkTLite/flask-blog/branch/main/graph/badge.svg?token=D1GG1EUSJL)](https://codecov.io/gh/MarkTLite/flask-blog)
 ![Test status](https://github.com/MarkTLite/flask-blog/actions/workflows/testcov.yml/badge.svg)
 ![Build Status](https://github.com/MarkTLite/landing-page-react/actions/workflows/heroku_deployer.yaml/badge.svg)
+
 A blog application done to apply core concepts as learned from the official flask documentation. It involved:
 
 - REST API (Users are able to register, log in, create posts, and edit or delete their own posts.)
