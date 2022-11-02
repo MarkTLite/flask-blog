@@ -38,5 +38,6 @@ def init_db_command():
 # Register with the Application in __init__.py
 def init_app(app: Flask):
     app.teardown_appcontext(close_db)
-    init_db()
+    with current_app.app_context():
+        init_db()
     # app.cli.add_command(init_db_command) # call this cli command once in the production lifetime
