@@ -3,3 +3,4 @@ coverage==6.4.2
 Flask==2.2.2
 SQLAlchemy==1.4.42
 gunicorn==20.0.4
+pytest==7.2.0
